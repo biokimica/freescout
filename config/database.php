@@ -96,7 +96,7 @@ return [
             'password' => env('DB_PASSWORD', ''),
             'charset'  => 'utf8',
             'prefix'   => env('DB_TABLE_PREFIX', ''),
-            'schema'   => 'public',
+            'schema'   => 'freescout',
             'sslmode'  => env('DB_PGSQL_SSLMODE', 'prefer'),
         ],
 
